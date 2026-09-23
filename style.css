@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #5a2a3c;
+}
+
+a {
+    color: #c2185b;
+}
+
+    a:hover {
+        color: #880e4f;
+    }
+
+h1,
+h2 {
+    color: #880e4f;
+}
+
+#header {
+    width: 100%;
+    background-color: #f8c8dc;
+    padding: 10px 0;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f8c8dc;
+}
+
+    #footer p {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+/* Контент и меню - максимум 960px по центру */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* контейнер шапки охватывает float-логотип */
+#header .container {
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+    .logo img {
+        width: 80px;
+        display: block;
+    }
+
+.sitename {
+    min-height: 80px;
+}
+
+    .sitename h1 {
+        margin: 0;
+        line-height: 80px;
+    }
+
+#menu {
+    background-color: #fbd5e5;
+    padding: 10px 0;
+}
+
+    #menu a {
+        margin-right: 20px;
+        text-decoration: none;
+    }
+
+        #menu a:hover {
+            text-decoration: underline;
+        }
+
+section {
+    padding: 10px 0;
+}
+
+/* Таблица */
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .schedule th,
+    .schedule td {
+        border: 1px solid #d87093;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .schedule th {
+        background-color: #f4a6c4;
+    }
+
+    /* чётные и нечётные строки тела таблицы */
+    .schedule tbody tr:nth-child(even) {
+        background-color: #fde4ee;
+    }
+
+    .schedule tbody tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
